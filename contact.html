@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class = "navbar">
+            <a href="home.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <h3> Feel free to reach out to my email below: <a href="mailto:someone@example.com" target="_blank" class="contact">mikeymilitar10@gmail.com</a></h3>
+    
+
+    <div class = "card">
+        <form action="/form.html" method="GET" class="form">
+            <label for = "name">Name: *</label>
+                <input type="text" name="name" placeholder="Name" required>
+            <br><br>
+            <label for = "email" name="email">Email: *</label>
+                <input type="text" name="email" placeholder="Email" required>
+                <br><br>
+            <label for = "date" name="appointment">Set Up Appointment <br><br> Date: </label>
+            <input type = "date" value = "2021-03-20" min = "2021-03-01" max ="2021-12-31">
+            <br><br>    
+            
+            <label for = "subject">Subject: </label>
+            <br>
+            <input type="checkbox" id="phone" name="phone" value="phone">
+  <label for="phone"> Phone call</label><br>
+  <input type="checkbox" id="video" name="video" value="video">
+  <label for="video"> Video</label>
+  
+  <br><br>
+
+
+            <label for = "question">How did you hear about me?</label>
+            <ul>
+                <li><input type="radio" name="friend"> Through a friend</li>
+                <li><input type="radio" name="linkedin"> LinkedIn</li>
+                <li><input type="radio" name="instagram"> Instagram</li>
+                <li><input type="radio" name="twitter"> Twitter</li>
+                <li><input type="radio" name="other"> Other</li>
+                <textarea placeholder="If Other: Please Specify"></textarea>
+            </ul>
+            
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    <div class = "box">
+    <a href="https://www.linkedin.com/in/michaelmilitar/" target="_blank" class="contact"><img src = "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"></a>
+    <br>
+    <a href="https://github.com/MichaelMilitar" target="_blank" class="contact"><img src = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a>
+    </div>
+</body>
+
+</html>
